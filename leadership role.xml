@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle created="1672494404031" displayName="leadership Role" id="a9fe050c856810138185686f51bf0068" modified="1672494705475" name="leadership role" type="it">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="a9fe5bbb846a1a8f81846a5b4d0400ea" name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile created="1672494404044" id="a9fe050c856810138185686f51cc0069">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" id="a9fe050c853510de81853610ec890047" name="guvi.ldap"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="groups">
+          <Value>
+            <List>
+              <String>cn=leadership,ou=groups,dc=guvi,dc=com</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
