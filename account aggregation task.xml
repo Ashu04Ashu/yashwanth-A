@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskResult PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskResult completed="1672422265452" completionStatus="Success" host="DESKTOP-PK0NQ7G" launched="1672422256786" launcher="spadmin" name="bank aggre" runLength="8" runLengthAverage="21" runLengthDeviation="-61" schedule="b68fc620b4ab4431ae2984a1181794d3" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="applications" value="root"/>
+      <entry key="created" value="5"/>
+      <entry key="identityEntitlementsCreated" value="14"/>
+      <entry key="identityEntitlementsUpdated" value="6"/>
+      <entry key="internalUpdates" value="1"/>
+      <entry key="total" value="20"/>
+      <entry key="updated" value="15"/>
+    </Map>
+  </Attributes>
+  <Definition>
+    <Reference class="sailpoint.object.TaskDefinition" name="bank aggre"/>
+  </Definition>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Report>
+    <Reference class="sailpoint.object.JasperResult"/>
+  </Report>
+</TaskResult>

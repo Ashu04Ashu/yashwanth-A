@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle created="1670972865021" displayName="Default SBI User role" id="a9fe050c850716d181850dbe79c4019b" modified="1671594417293" name="sbiuserrole" type="it">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="a9fe5bbb846a1a8f81846a5b4d0400ea" name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile created="1670972865039" id="a9fe050c850716d181850dbe7a0f019c" modified="1671594383653">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" id="a9fe050c84b018928184b042102c0055" name="root"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="privilege">
+          <Value>
+            <List>
+              <String>user</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

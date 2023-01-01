@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskResult PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskResult completed="1672422196107" completionStatus="Success" host="DESKTOP-PK0NQ7G" launched="1672422191129" launcher="spadmin" name="guvi-workdayaggreation" runLength="4" runLengthAverage="10" runLengthDeviation="-60" schedule="d539b1bba9d04932a2abbe2c394ef1ad" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="applications" value="guvi-workday"/>
+      <entry key="created" value="20"/>
+      <entry key="internalUpdates" value="1"/>
+      <entry key="total" value="20"/>
+    </Map>
+  </Attributes>
+  <Definition>
+    <Reference class="sailpoint.object.TaskDefinition" name="guvi-workdayaggreation"/>
+  </Definition>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</TaskResult>
